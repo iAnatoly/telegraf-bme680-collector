@@ -1,0 +1,9 @@
+[Unit]
+Description=BME680 telegraf collector
+
+[Service]
+ExecStart=/home/avi/src/BME68X_Environmental_Sensor_code/RaspberryPi/Python/collector/collector.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 

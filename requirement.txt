@@ -1,0 +1,3 @@
+bme680==1.1.1
+pytelegraf==0.3.3
+smbus==1.1.post2
